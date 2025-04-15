@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list_datalist</title>
+</head>
+<body>
+    <h2>select-option</h2>
+    <select name="중국집" id="">
+        <option value="1">홍콩반점</option>
+        <option value="2">봉짜장</option>
+        <option value="3">주야짬뽕</option>
+    </select>
+
+    <h2>datalset-option</h2>
+    <form action="/view4" method="get">  <!-- method는 안적으면 기본적으로 get을 사용함 -->
+        세계나라: <input type="text" list="세계나라">
+            <datalist id="세계나라">
+                <option value="대한민국">
+                <option value="일본">
+                <option value="중국">
+                <option value="러시아"></option>
+                <option value="몽골"></option>
+                <!-- option은 /option을 안적어도 돰 -->
+            </datalist><br>
+        여름 휴가지:  <input type="text" list="what">
+            <datalist id="what">
+                <option value="산">
+                <option value="바다">
+                <option value="계곡">
+                <option value="강"></option>
+                <!-- option은 /option을 안적어도 돰 -->
+            </datalist><br>
+        <input type="submit" value="전송">
+        <input type="reset" value="취소"> <br>
+        <button>전송</button><br>
+        <input type="button" value="버튼"><br>
+        <input type="image" src="media/button.png">
+    </form>
+    
+</body>
+</html>
