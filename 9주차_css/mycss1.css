@@ -1,0 +1,28 @@
+
+        ul li{
+            background-color: yellow;
+            margin: 5px;
+            font-weight: bold;  /*10px 글자 굵기를 설정 bold가 100*/
+            display: inline;
+            border: 2px solid blue;
+        }
+
+        .red{                 /*클래스*/
+            color: red;
+        }
+
+        .white{                 /*id*/
+            color: white;
+        }
+        
+        #yellow{
+            color: yellow;
+        }
+
+        h1{
+            display: inline;
+            background-color: skyblue;
+            color: pink;
+            border: 3px dotted black;
+        }
+        
