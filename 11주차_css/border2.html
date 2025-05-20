@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 100px;
+            padding: 10px;
+            border: 20px solid red;
+            background-color: bisque;
+        }
+        #div1{
+            border-image: url(media/border.png) 30 round;
+        }
+        #div2{
+            border-image: url(media/border.png) 30 stretch;
+        }
+        #div3{
+            border-image: url(media/border.png) 30 repeat;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+</body>
+</html>
